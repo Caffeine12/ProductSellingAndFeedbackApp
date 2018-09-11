@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:lines="3"/>
+
+            <EditText
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_marginTop="10dp"
+                android:id="@+id/product_image_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Image Link"
+                android:lines="3"/>
+
+            <EditText
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_marginTop="10dp"
+                android:id="@+id/product_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description"
+                android:lines="3"/>
+
+
+            <EditText
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_marginTop="10dp"
+                android:id="@+id/product_action_and_usages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Action and Usages"
+                android:lines="3"/>
+
+            <EditText
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_marginTop="10dp"
+                android:id="@+id/product_side_effect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Side Effect"
+                android:lines="3"/>
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/add_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_yellow"
+                android:text="ADD PRODUCT" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

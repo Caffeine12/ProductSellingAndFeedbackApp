@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/p_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:text="dfgsdfgdfsgdsgdsfgdsfgdfgdgdfgdfgdgdfg"
+        android:layout_toRightOf="@id/p_image"
+       android:gravity="center_vertical"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_marginLeft="20dp"/>
+
+    <LinearLayout
+        android:layout_toRightOf="@id/logo_name"
+        android:layout_alignTop="@id/p_image"
+        android:layout_alignBottom="@id/p_image"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end|center_vertical"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:id="@+id/editProduct"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/edit"/>
+
+        <ImageView
+            android:id="@+id/deleteProduct"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/delete"/>
+    </LinearLayout>
+
+</RelativeLayout>

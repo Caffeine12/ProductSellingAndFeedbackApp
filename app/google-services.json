@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "554435911446",
+    "firebase_url": "https://lci-hamdard-products.firebaseio.com",
+    "project_id": "lci-hamdard-products",
+    "storage_bucket": "lci-hamdard-products.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554435911446:android:3c52dfadb703bc4b",
+        "android_client_info": {
+          "package_name": "shopping.reloaded.com.shoppingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554435911446-1gvi4ed0rkmjpcjg1o86v5bv33vo1784.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shopping.reloaded.com.shoppingapp",
+            "certificate_hash": "cffca9f52b02315bfb9a26b565ba625949ef73ec"
+          }
+        },
+        {
+          "client_id": "554435911446-d86ujr7npbddkt826dlp59a1jqjhmajc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACEWPwY77O79eFnR6nZU0ZeK7QJT8dlEQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554435911446-d86ujr7npbddkt826dlp59a1jqjhmajc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
